@@ -5,5 +5,5 @@
 - We have used HTML | CSS | JS | AJAX & Jquery
 
 - Contributors
-- Samuel Birhanu - https://www.linkedin.com/in/samuel-demissie-b02b27193/
 - Tinsaye Simeneh - https://www.linkedin.com/in/tinsayesimeneh/
+- Samuel Birhanu - https://www.linkedin.com/in/samuel-demissie-b02b27193/
