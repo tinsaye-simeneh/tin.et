@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>tin.et about</title>
+    <link rel="stylesheet" href="About-styles.css">
+</head>
+
+<body>
+    <div class="logo-div">
+        <img src="logo.png" alt="logo" class="logo-img">
+    </div>
+    <div class="title-div">
+        <p>About Us</p>
+    </div>
+    <div class="detail-div">
+        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, massa. <br> 
+            Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. <br>
+            In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. <br>
+             Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span>
+    </div>
+    <div class="navbar" id="myNavbar">
+        <span>Language :</span>
+       <select name="Filter" id="" class="lang" onchange="javascript:location.href = this.value;">
+              <option value="About.html" selected >English</option>
+             <option value="About-amh.html">Amharic</option>
+          </select>
+        <a href="About.html" class="active">About Us</a>
+        <a href="Help.html">Help</a>
+        <a href="Contact.html">Contact Us</a>
+        <a href="index.html">Home</a>
+    </div>
+<script type="text/javascript">
+    window.onload = function(){
+        location.href=document.getElementById("selectbox").value;
+    }       
+</script>
+</body>
+
+</html>

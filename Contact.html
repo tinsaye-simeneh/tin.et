@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>tin.et Contact</title>
+    <link rel="stylesheet" href="Contact-styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+</head>
+
+<body>
+    <div class="logo-div">
+        <img src="logo.png" alt="logo" class="logo-img">
+    </div>
+    <div class="title-div">
+        <p>Contact Us</p>
+    </div>
+    <div class="form-div">
+        <form method="get" action="index.html" onsubmit="alert('We have recieved your request. We will get back to you soon.')">
+            <input type=" text " class="Name-input " placeholder="Enter Your Full Name " value="" required>
+            <input type=" email " class="Email-input " placeholder="Enter Your Email" value="" required>
+            <input type=" text " class="Company-input " placeholder="Enter your Company Name (Optional)" value="">
+            <textarea class="Message-input " value="" id="Message-input" cols="30" rows="3" placeholder="Enter your Message Shortly" required></textarea>
+            <button type="submit" class="submit-btn">Send</button>
+        </form>
+    </div>
+
+
+    <div class="navbar" id="myNavbar">
+        <span>Language :</span>
+        <select name="Filter" id="" class="lang" onchange="javascript:location.href = this.value;">
+              <option value="Contact.html" selected >English</option>
+             <option value="Contact-amh.html">Amharic</option>
+          </select>
+        <a href="About.html">About Us</a>
+        <a href="Help.html">Help</a>
+        <a href="Contact.html" class="active">Contact Us</a>
+        <a href="index.html">Home</a>
+    </div>
+    <script type="text/javascript">
+        window.onload = function() {
+            location.href = document.getElementById("selectbox").value;
+        }
+    </script>
+</body>
+
+</html>

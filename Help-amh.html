@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>tin.et help</title>
+    <link rel="stylesheet" href="Help-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="logo-div">
+        <img src="logo.png" alt="logo" class="logo-img">
+    </div>
+    <div class="title-div">
+        <p>እርዳታ</p>
+    </div>
+    <div class="detail-div">
+        <span style="text-align: center;">ችግር ካጋጠሞት </br> በ tinhelp@gmail.com ሊያገኙን ይችላሉ </br></br>
+            ወይም</br></br> የማህበራዊ ድረ-ገጾቻችንን መጠቀም ይችላሉ</span>
+    </div>
+    <div class="social-div">
+        <a href="https://www.facebook.com" class="fa fa-facebook"></a>
+        <a href="https://www.linkedin.com" class="fa fa-linkedin"></a>
+        <a href="https://www.instagram.com" class="fa fa-instagram"></a>
+        <a href="https://www.telegram.com" class="fa fa-telegram"></a>
+    </div>
+    <div class="navbar" id="myNavbar">
+        <span>ቋንቋ :</span>
+        <select name="Filter" id="" class="lang" onchange="javascript:location.href = this.value;">
+                <option value="Help.html"  >እንግሊዝኛ</option>
+                <option value="Help-amh.html" selected>አማርኛ</option> 
+          </select>
+        <a href="About-amh.html">ስለ እኛ</a>
+        <a href="Help-amh.html" class="active">እርዳታ</a>
+        <a href="Contact-amh.html">አግኙን</a>
+        <a href="index-amh.html">መግቢያ</a>
+    </div>
+    <script type="text/javascript">
+        window.onload = function() {
+            location.href = document.getElementById("selectbox").value;
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tin.et</title>
+    <link rel="stylesheet" href="Contact-styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+</head>
+
+<body>
+    <div class="logo-div">
+        <img src="logo.png" alt="logo" class="logo-img">
+    </div>
+    <div class="title-div">
+        <p>አግኙን</p>
+    </div>
+    <div class="form-div">
+        <form method="get" action="index-amh.html" onsubmit=" alert('አስተያየትዎን ተቀብለናል ፣ በቅርቡ እንመልሳለን ።')">
+            <input id="name" type=" text " class="Name-input " id="Name-input" placeholder="ሙሉ ስም " value="" required>
+            <input type=" email " class="Email-input " id="Email-input" placeholder="ኢሜይል" value="" required>
+            <input type=" text " class="Company-input " id="Company-input" placeholder="የድርጅት ስም (አማራጭ)" value="">
+            <textarea name="Message-input" class="Message-input " value="" id="Message-input" cols="30" rows="3" placeholder="መልእክት በአጭሩ" required></textarea>
+            <button type="submit" class="submit-btn">አስገባ</button>
+        </form>
+    </div>
+
+    <div class="navbar" id="myNavbar">
+        <span>ቋንቋ :</span>
+        <select name="Filter" id="" class="lang" onchange="javascript:location.href = this.value;">
+            <option value="Contact.html" >እንግሊዝኛ</option>
+            <option value="Contact-amh.html" selected>አማርኛ</option> 
+      </select>
+        <a href="About-amh.html">ስለ እኛ</a>
+        <a href="Help-amh.html">እርዳታ</a>
+        <a href="Contact-amh.html" class="active">አግኙን</a>
+        <a href="index-amh.html">መግቢያ</a>
+    </div>
+    <script type="text/javascript">
+        window.onload = function() {
+            location.href = document.getElementById("selectbox").value;
+        }
+    </script>
+</body>
+
+</html>

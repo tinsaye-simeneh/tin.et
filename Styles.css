@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: white;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+
+.logo-div {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 800px;
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-div .logo-img {
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 800px;
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.form .input {
+    width: 79.5%;
+    padding: 15px 20px;
+    border-radius: 20px;
+    font-weight: medium;
+    border: 2px solid gray;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    border-left: 0px;
+}
+
+.form .filter {
+    background: #ffffff;
+    width: 21%;
+    padding-left: 10px;
+    border-radius: 20px;
+    position: relative;
+    cursor: pointer;
+    border: 2px solid gray;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.form .fas {
+    position: absolute;
+    top: 50%;
+    left: 92%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.logo-div1 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 350px;
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-div1 .logo-img1 {
+    width: 45%;
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form1 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 600px;
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.form1 .input1 {
+    display: none;
+    width: 79.5%;
+    padding: 15px 20px;
+    border-radius: 20px;
+    font-weight: medium;
+    border: 2px solid gray;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    border-left: 0px;
+}
+
+.form1 .filter1 {
+    display: none;
+    background: #ffffff;
+    width: 21%;
+    padding-left: 10px;
+    border-radius: 20px;
+    position: relative;
+    cursor: pointer;
+    border: 2px solid gray;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.btn1 {
+    border: none;
+}
+
+.btn13 {
+    border: none;
+    display: none;
+}
+
+.form1 .fas {
+    position: absolute;
+    top: 50%;
+    left: 92%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.navbar1 {
+    overflow: hidden;
+    background-color: #FF9914;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.navbar1 span {
+    float: left;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar1 .lang {
+    float: left;
+    display: block;
+    background-color: #FF9914;
+    color: #fff;
+    text-align: center;
+    padding: 14px 0px;
+    text-decoration: none;
+    font-size: 17px;
+    border: none;
+}
+
+.navbar1 a {
+    float: right;
+    display: inline;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar1 a:hover {
+    border-bottom: 7px solid white;
+}
+
+.navbar1 a.active {
+    border-bottom: 7px solid white;
+}
+
+.container {
+    margin-top: 13%;
+    padding-bottom: 59px;
+}
+
+.table {
+    display: none;
+    width: 20%;
+}
+
+@media screen and (max-width: 600px) {
+    .navbar1 .lang {
+        font-size: 11px;
+    }
+    .btn1 {
+        right: 5%;
+    }
+    .navbar1 span {
+        font-size: 11px;
+    }
+    .navbar1 a {
+        float: right;
+        text-align: right;
+        display: block;
+        top: 5%;
+        left: -5;
+        color: #fff;
+        padding: 14px 5px;
+        text-decoration: none;
+        font-size: 11px;
+    }
+    .container {
+        margin-top: 41%;
+    }
+    .form .input {
+        font-weight: normal;
+        font-size: 8px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .container {
+        margin-top: 18%;
+    }
+}
+
+@media screen and (min-width: 450px) {
+    .container {
+        margin-top: 490px;
+    }
+}
+
+@media screen and (min-width: 1320px) {
+    .container {
+        margin-top: 17%;
+        padding-bottom: 159px;
+    }
+}
