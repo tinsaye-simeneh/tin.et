@@ -2,8 +2,7 @@
 
 - A fully functional website that is used for accessing tin number and other informations of companies in ethiopia
 
-- We have used HTML | CSS | JS | AJAX & Jquery
+- I have used HTML | CSS | JS & Jquery
 
 - Contributors
 - Tinsaye Simeneh - https://www.linkedin.com/in/tinsayesimeneh/
-- Samuel Birhanu - https://www.linkedin.com/in/samuel-demissie-b02b27193/
