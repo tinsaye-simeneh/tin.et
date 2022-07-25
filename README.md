@@ -1,4 +1,4 @@
-# tin.et - https://tin.elsamtechnologies.com
+# tin.et - https://tin-et.vercel.app
 
 - A fully functional website that is used for accessing tin number and other informations of companies in ethiopia
 
